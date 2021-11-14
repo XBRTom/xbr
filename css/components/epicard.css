@@ -1,0 +1,67 @@
+.epicard {
+  position: relative;
+  height: 450px;
+  padding: 0px 0px 5px 0px;
+  background-size: cover;
+}
+
+.epicard-body {
+ background-color: #fffff;
+ padding-left: 30px;
+ padding-top: 20px;
+}
+
+.epicard-category {
+  color: red;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-bottom: 0px;
+
+}
+
+.epicard-description {
+}
+}
+.epicard-description h3 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  color: black;
+  font-weight: bolder;
+}
+
+.epicard-description p {
+  font-size: 19px;
+  font-style: lighter !important;
+  color: black;
+}
+
+.epicard-footer {
+  padding-top: 10px;
+}
+
+.epicard:hover {
+  background-color: black;
+  border-color: darkgrey;
+  border-width: 2px;
+  border-style: solid;
+  opacity: 0.6;
+}
+
+.epicardoverlap {
+ position: relative;
+    z-index: 1;
+}
+
+.mybuttonoverlap{
+  position: absolute;
+    z-index: 2;
+    top: 44px;
+    display: none;
+    left: 59px; 
+}
+
+.epicard:over .mybuttonoverlap{
+  display: block;
+}
+
+
